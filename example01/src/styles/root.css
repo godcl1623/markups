@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: 1px solid black;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --bg-yellow: #ffd27d;
+  --bg-navy: #21243d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+li, button {
+  cursor: pointer;
+}
+
+li:hover, button:hover {
+  transform: scale(1.1);
+}
+
+li:active, button:active {
+  transform: scale(1.05);
+}
