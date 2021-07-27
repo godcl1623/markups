@@ -3,6 +3,7 @@
   width: 100%;
   height: max-content;
   position: relative;
+  z-index: 2;
 }
 
 .landing .bg {

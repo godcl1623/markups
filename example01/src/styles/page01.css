@@ -1,0 +1,111 @@
+.menu-introduce {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: var(--bg-navy);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-introduce .title {
+  text-align: center;
+}
+
+.menu-introduce .title h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.menu-introduce .title p {
+  margin-top: 36px;
+  width: 717px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.menu-introduce .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-introduce .card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-introduce .card-container .card img {
+  border-radius: 50%;
+}
+
+.menu-introduce .card-container .card label {
+  margin: 23px 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.menu-introduce .card-container .card p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  width: 246px;
+}
+
+.menu-introduce .card-container .card:nth-child(2) {
+  margin: 0 130px;
+}
+
+.menu-introduce .designs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-introduce .designs * {
+  position: absolute;
+}
+
+.menu-introduce .designs .circle{
+  border-radius: 102px;
+}
+
+.menu-introduce .designs .dots {
+  border-radius: 4px;
+}
+
+.menu-introduce .designs .dots:first-child {
+  top: -11px;
+  left: 260px;
+}
+
+.menu-introduce .designs .circle:nth-child(2) {
+  right: -30px;
+  top: -30px;
+}
+
+.menu-introduce .designs .zig:nth-child(3) {
+  left: 100px;
+  top: 175px;
+}
+
+.menu-introduce .designs .dots:nth-child(4) {
+  transform: rotate(90deg);
+  top: 354px;
+  right: -57px;
+}
+
+.menu-introduce .designs .circle:nth-child(5) {
+  left: -65px;
+  bottom: 75px;
+}
+
+.menu-introduce .designs .zig:last-child {
+  bottom: 55px;
+  right: 0;
+}
