@@ -1,0 +1,76 @@
+.footer {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-black);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer footer h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.footer footer p, .footer footer li {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.footer footer .introduction {
+  margin-left: 6%;
+  width: 50%;
+  height: 350px;
+}
+
+.footer footer .introduction p {
+  margin: 40px 0 32px;
+  width: 466px;
+}
+
+.footer footer .introduction .icon-container {
+  display: flex;
+}
+
+.footer footer .introduction .icon-container li {
+  margin-right: 16px;
+}
+
+.footer footer .article-container {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer footer .article-container article ul {
+  margin-top: 35px;
+}
+
+.footer footer .article-container article ul li {
+  margin-top: 23px;
+}
+
+.footer footer .article-container article ul li:first-child {
+  margin-top: 0;
+}
+
+.footer footer .article-container article.Services {
+  margin: 0 42px;
+}
+
+.footer a {
+  position: absolute;
+  bottom: 50px;;
+}
