@@ -1,42 +1,42 @@
-.page2 {
+.page3 {
   width: 100%;
   min-height: 100vh;
   position: relative;
   background: var(--bg-yellow);
   color: var(--bg-navy);
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
 }
 
-.page2 .img-container {
+.page3 .img-container {
   width: 50%;
   text-align: center;
   z-index: 2;
 }
 
-.page2 .img-container img {
+.page3 .img-container img {
   border-radius: 50%;
 }
 
-.page2 .title {
+.page3 .title {
+  margin-left: 9%;
   width: 50%;
 }
 
-.page2 .title h2 {
+.page3 .title h2 {
   font-size: 75px;
   font-weight: 700;
 }
 
-.page2 .title p {
+.page3 .title p {
   margin: 64px 0;
   width: 650px;
   font-size: 30px;
   font-weight: 400;
 }
 
-.page2 .title button {
+.page3 .title button {
   border-radius: 32px;
   width: 322px;
   height: 65px;
@@ -46,45 +46,46 @@
   color: white;
 }
 
-.page2 .designs {
+.page3 .designs {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-.page2 .designs * {
+.page3 .designs * {
   position: absolute;
 }
 
-.page2 .designs .circle{
+.page3 .designs .circle{
   border-radius: 102px;
 }
 
-.page2 .designs .dots {
+.page3 .designs .dots {
   border-radius: 4px;
 }
 
-.page2 .designs .dots:first-child {
-  top: 25px;
-  right: 37px;
+.page3 .designs .dots:first-child {
+  top: 20px;
+  left: 576px;
+  transform: rotate(90deg);
 }
 
-.page2 .designs .circle:nth-child(2) {
-  top: 140px;
-  left: 85px;
+.page3 .designs .circle:nth-child(2) {
+  top: 65px;
+  right: 52px;
 }
 
-.page2 .designs .zig:nth-child(3) {
-  top: 100px;
-  left: 50%;
+.page3 .designs .zig:nth-child(3) {
+  top: 152px;
+  left: 131px;
 }
 
-.page2 .designs .dots:nth-child(4) {
+.page3 .designs .dots:nth-child(4) {
+  bottom: 78px;
+  right: 50px;
+}
+
+.page3 .designs .circle:last-child {
   bottom: 50px;
-  left: 40px;
-}
-
-.page2 .designs .circle:last-child {
-  right: -45px;
-  bottom: 75px;
+  left: 549px;
 }
