@@ -1,0 +1,45 @@
+.profile {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../bg/bg_pic/background02.png') no-repeat center/100%;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .filter {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-navy);
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 0;
+}
+
+.profile main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile main img {
+  border-radius: 50%;
+}
+
+.profile main p {
+  /* margin: 50px 0; */
+  margin: 5% 0;
+  width: 1040px;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.profile main h3 {
+  font-size: 45px;
+  font-weight: 700;
+}

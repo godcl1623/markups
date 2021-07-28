@@ -4,15 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../src/styles/style.css">
+  <!-- <link rel="stylesheet" href="../src/styles/style.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/styles/root.css">
+  <link rel="stylesheet" href="../src/styles/landing.css">
+  <link rel="stylesheet" href="../src/styles/page01.css">
+  <link rel="stylesheet" href="../src/styles/page02.css">
+  <link rel="stylesheet" href="../src/styles/stat.css">
+  <link rel="stylesheet" href="../src/styles/page03.css">
+  <link rel="stylesheet" href="../src/styles/profile.css">
+  <link rel="stylesheet" href="../src/styles/subscription.css">
+  <link rel="stylesheet" href="../src/styles/footer.css">
   <title>Document</title>
 </head>
 <body>
   <section class="landing">
     <nav class="menu">
       <span class="logo">
-        <img src="../src/icons/logo.png" alt="logo" style="background: black;">
-        YOUR LOGO
+        <img src="../src/icons/logo.png" alt="logo">
+        <h3>YOUR LOGO</h3>
       </span>
       <ul class="menus">
         <li>Home</li>
@@ -21,20 +33,23 @@
         <li>About</li>
         <li>Contact</li>
       </ul>
-      <span>
-        <input type="text" />
+      <form class="search-form">
+        <input type="text" class="search-bar activer" />
         <button>
-          <img src="../src/icons/search.png" alt="search">
+          <img src="../src/icons/search.png" alt="search" class="search-btn">
         </button>
-      </span>
+      </form>
     </nav>
+    <div class="bg">
+      <div class="filter filter-1"></div>
+    </div>
     <header class="header">
       <h1>Title Here</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
       <button>ORDER NOW</button>
     </header>
   </section>
-  <section class="menu-introduce">
+  <section class="menu-introduce page1">
     <header class="title">
       <h2>Popular Menu</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
@@ -57,30 +72,29 @@
       </article>
     </main>
     <div class="designs">
-      <img src="../src/design/shape_dots_y.png" alt="design_dots">
-      <img src="../src/design/shape_circle_y.png" alt="design_circle">
-      <img src="../src/design/shape_zig_y.png" alt="design_zig">
-      <img src="../src/design/shape_dots_y.png" alt="design_dots">
-      <img src="../src/design/shape_circle_y.png" alt="design_circle">
-      <img src="../src/design/shape_zig_y.png" alt="design_zig">
+      <img src="../src/design/shape_dots_y.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_y.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_y.png" alt="design_zig" class="design zig">
+      <img src="../src/design/shape_dots_y.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_y.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_y.png" alt="design_zig" class="design zig">
     </div>
   </section>
-  <section class="page">
+  <section class="page page2">
     <header class="title">
       <h2>Title Here</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
+      <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
       <button>ORDER NOW</button>
     </header>
-    <main>
+    <div class="img-container">
       <img src="../src/img/image_2_1.png" alt="image">
-    </main>
+    </div>
     <div class="designs">
-      <img src="../src/design/shape_dots_bk.png" alt="design_dots">
-      <img src="../src/design/shape_circle_bk.png" alt="design_circle">
-      <img src="../src/design/shape_zig_bk.png" alt="design_zig">
-      <img src="../src/design/shape_dots_bk.png" alt="design_dots">
-      <img src="../src/design/shape_circle_bk.png" alt="design_circle">
-      <img src="../src/design/shape_zig_bk.png" alt="design_zig">
+      <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_bk.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_bk.png" alt="design_zig" class="design zig">
+      <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_bk.png" alt="design_circle" class="design circle">
     </div>
   </section>
   <section class="statistics">
@@ -90,43 +104,42 @@
     </header>
     <main class="card-container">
       <article class="card">
-        <h2>123</h2>
+        <h3>123</h3>
         <p>STORE</p>
       </article>
       <article class="card">
-        <h2>100</h2>
+        <h3>100</h3>
         <p>MENU</p>
       </article>
       <article class="card">
-        <h2>200</h2>
+        <h3>200</h3>
         <p>CHEF</p>
       </article>
     </main>
     <div class="designs">
-      <img src="../src/design/shape_dots_y.png" alt="design_dots">
-      <img src="../src/design/shape_circle_y.png" alt="design_circle">
-      <img src="../src/design/shape_zig_y.png" alt="design_zig">
-      <img src="../src/design/shape_dots_y.png" alt="design_dots">
-      <img src="../src/design/shape_circle_y.png" alt="design_circle">
-      <img src="../src/design/shape_zig_y.png" alt="design_zig">
+      <img src="../src/design/shape_dots_y.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_y.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_y.png" alt="design_zig" class="design zig">
+      <img src="../src/design/shape_dots_y.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_y.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_y.png" alt="design_zig" class="design zig">
     </div>
   </section>
-  <section class="page">
+  <section class="page page3">
     <header class="title">
       <h2>Title Here</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
       <button>ORDER NOW</button>
     </header>
-    <main>
+    <div class="img-container">
       <img src="../src/img/image_3_1.png" alt="image">
-    </main>
+    </div>
     <div class="designs">
-      <img src="../src/design/shape_dots_bk.png" alt="design_dots">
-      <img src="../src/design/shape_circle_bk.png" alt="design_circle">
-      <img src="../src/design/shape_zig_bk.png" alt="design_zig">
-      <img src="../src/design/shape_dots_bk.png" alt="design_dots">
-      <img src="../src/design/shape_circle_bk.png" alt="design_circle">
-      <img src="../src/design/shape_zig_bk.png" alt="design_zig">
+      <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_bk.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_bk.png" alt="design_zig" class="design zig">
+      <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_bk.png" alt="design_circle" class="design circle">
     </div>
   </section>
   <section class="profile">
@@ -135,23 +148,24 @@
       <p>If you are a culinary fan, if you like to spend time in your kitchen, you likely find yourself looking for reliable resources through which you can</p>
       <h3>Phoebe Frazier</h3>
     </main>
+    <div class="filter"></div>
   </section>
   <section class="subscription">
     <header>
       <h2>Title Here</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
       <form class="email">
-        <input type="text" class="your-email">
+        <input type="text" placeholder="Your Email" class="your-email">
         <button>SUBSCRIBE</button>
       </form>
     </header>
     <div class="designs">
-      <img src="../src/design/shape_dots_bk.png" alt="design_dots">
-      <img src="../src/design/shape_circle_bk.png" alt="design_circle">
-      <img src="../src/design/shape_zig_bk.png" alt="design_zig">
-      <img src="../src/design/shape_dots_bk.png" alt="design_dots">
-      <img src="../src/design/shape_circle_bk.png" alt="design_circle">
-      <img src="../src/design/shape_zig_bk.png" alt="design_zig">
+      <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_bk.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_bk.png" alt="design_zig" class="design zig">
+      <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
+      <img src="../src/design/shape_circle_bk.png" alt="design_circle" class="design circle">
+      <img src="../src/design/shape_zig_bk.png" alt="design_zig" class="design zig">
     </div>
   </section>
   <section class="footer">
@@ -166,34 +180,36 @@
           <li><img src="../src/icons/icon_wa.png" alt="whatsapp" style="background: black;"></li>
         </ul>
       </article>
-      <article class="About">
-        <h3>About</h3>
-        <ul class="list-about">
-          <li>History</li>
-          <li>Our Team</li>
-          <li>Brand Guidelines</li>
-          <li>Terms & Condition</li>
-          <li>Privacy Policy</li>
-        </ul>
-      </article>
-      <article class="Services">
-        <h3>Services</h3>
-        <ul class="list-services">
-          <li>How to Order</li>
-          <li>Our Product</li>
-          <li>Order Status</li>
-          <li>Promo</li>
-          <li>Payment Method</li>
-        </ul>
-      </article>
-      <article class="Other">
-        <h3>Other</h3>
-        <ul class="list-others">
-          <li>Contact Us</li>
-          <li>Help</li>
-          <li>Privacy</li>
-        </ul>
-      </article>
+      <section class="article-container">
+        <article class="About">
+          <h3>About</h3>
+          <ul class="list-about">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Brand Guidelines</li>
+            <li>Terms & Condition</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </article>
+        <article class="Services">
+          <h3>Services</h3>
+          <ul class="list-services">
+            <li>How to Order</li>
+            <li>Our Product</li>
+            <li>Order Status</li>
+            <li>Promo</li>
+            <li>Payment Method</li>
+          </ul>
+        </article>
+        <article class="Other">
+          <h3>Other</h3>
+          <ul class="list-others">
+            <li>Contact Us</li>
+            <li>Help</li>
+            <li>Privacy</li>
+          </ul>
+        </article>
+      </section>
     </footer>
     <a href='https://www.freepik.com/psd/food'>Food psd created by freepik - www.freepik.com</a>
   </section>
