@@ -83,14 +83,6 @@
   position: absolute;
 }
 
-.menu-introduce .designs .circle{
-  border-radius: 6.375rem;
-}
-
-.menu-introduce .designs .dots {
-  border-radius: 0.25rem;
-}
-
 .menu-introduce .designs .dots:first-child {
   top: -0.688rem;
   left: 16.25rem;

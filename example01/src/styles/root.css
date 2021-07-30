@@ -47,3 +47,11 @@ li:hover, button:hover {
 li:active, button:active {
   transform: scale(1.02);
 }
+
+.designs .circle {
+  border-radius: 6.375rem;
+}
+
+.designs .dots {
+  border-radius: 4px;
+}
