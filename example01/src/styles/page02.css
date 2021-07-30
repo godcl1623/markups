@@ -70,12 +70,12 @@
 }
 
 .page2 .designs .circle:nth-child(2) {
-  top: 140px;
-  left: 85px;
+  top: 115px;
+  left: 80px;
 }
 
 .page2 .designs .zig:nth-child(3) {
-  top: 100px;
+  top: 130px;
   left: 50%;
 }
 
@@ -86,5 +86,5 @@
 
 .page2 .designs .circle:last-child {
   right: -45px;
-  bottom: 75px;
+  bottom: 60px;
 }
