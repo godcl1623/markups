@@ -1,6 +1,9 @@
 /* landing root, common */
 .landing {
   width: 100%;
+  min-width: 1240px;
+  max-width: 1920px;
+  height: 100vh;
   height: max-content;
   position: relative;
   z-index: 2;
@@ -9,7 +12,7 @@
 .landing .bg {
   width: 100%;
   height: 100vh;
-  background: url(../bg/bg_pic/background01.png) no-repeat center/100%;
+  background: url(../bg/bg_pic/background01.png) no-repeat center/cover;
   z-index: 2;
 }
 
@@ -29,13 +32,13 @@
 
 /* landing - menu */
 .landing .menu {
-  padding: 14px 56px 20px;
+  padding: 0.875rem 3.5rem 1.25rem;
   background: var(--bg-navy);
   color: white;
   font-size: bolder;
   position: absolute;
   width: 100%;
-  height: 85px;
+  height: 5.313rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,17 +53,17 @@
 .landing .menu .logo {
   cursor: pointer;
   position: absolute;
-  left: 55px;
+  left: 3.438rem;
 }
 
 .landing .menu .menus {
   margin: 0 auto;
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: 400;
 }
 
 .landing .menu .menus li {
-  padding: 0 34px;
+  padding: 0 2.125rem;
   cursor: pointer;
 }
 
@@ -70,17 +73,17 @@
 
 .landing .menu form {
   position: absolute;
-  right: 58px;
+  right: 3.625rem;
 }
 
 .landing .menu form input {
   display: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   transition: all 0.5s;
 }
 
 .landing .menu form input.active {
-  padding: 3px 5px;
+  padding: 0.188rem 0.313rem;
   display: inline-block;
 }
 
@@ -91,8 +94,8 @@
   background: none;
   border: none;
   cursor: pointer;
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
 }
 
 .landing .menu form button img {
@@ -103,8 +106,8 @@
 /* landing - header */
 .landing .header {
   position: absolute;
-  top:35%;
-  left: 50px;
+  top: 35%;
+  left: 3.125rem;
   /* width: 626px; */
   color: white;
 }
@@ -118,26 +121,26 @@
 }
 
 .landing .header h1 {
-  margin-left: 8px;
-  font-size: 125px;
+  margin-left: 0.5rem;
+  font-size: 7.813rem;
   font-weight: 700;
   text-align: center;
 }
 
 .landing .header p {
-  width: 606px;
-  height: 100px;
-  font-size: 30px;
+  width: 37.875rem;
+  height: 6.25rem;
+  font-size: 1.875rem;
   font-weight: 400;
 }
 
 .landing .header button {
   background: var(--bg-navy);
   border: none;
-  border-radius: 33px;
-  width: 322px;
-  height: 65px;
-  font-size: 25px;
+  border-radius: 2.063rem;
+  width: 20.125rem;
+  height: 4.063rem;
+  font-size: 1.563rem;
   font-weight: 700;
   color: white;
 }
