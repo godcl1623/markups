@@ -1,7 +1,6 @@
 .profile {
-  width: 100%;
   min-height: 100vh;
-  background: url('../bg/bg_pic/background02.png') no-repeat center/100%;
+  background: url('../bg/bg_pic/background02.png') no-repeat center/cover;
   position: relative;
   color: white;
   display: flex;
