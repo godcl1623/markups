@@ -50,6 +50,7 @@
   border-radius: 138px;
   width: 274px;
   height: 275px;
+  background: var(--bg-navy);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,6 +80,7 @@
   height: 100%;
   max-height: 1080px;
   overflow: hidden;
+  z-index: 0;
 }
 
 .statistics .designs * {

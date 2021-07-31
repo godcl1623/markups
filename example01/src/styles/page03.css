@@ -63,6 +63,7 @@
   height: 100%;
   max-height: 1080px;
   overflow: hidden;
+  z-index: 0;
 }
 
 .page3 .designs * {
@@ -109,5 +110,11 @@
   }
   .page3 .contents-container .img-container {
     padding-right: 3%;
+  }
+}
+
+@media (max-height: 850px) {
+  .page3 .designs .zig:nth-child(3) {
+    top: 102px;
   }
 }

@@ -61,6 +61,7 @@
   height: 100%;
   max-height: 1080px;
   overflow: hidden;
+  z-index: 0;
 }
 
 .page2 .designs * {
@@ -90,4 +91,10 @@
 .page2 .designs .circle:last-child {
   right: -2.813rem;
   bottom: 3.75rem;
+}
+
+@media (max-height: 850px) {
+  .page2 .designs .zig:nth-child(3) {
+    top: 5rem;
+  }
 }
