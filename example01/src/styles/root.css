@@ -20,6 +20,8 @@ html, body {
   --bg-green: #678d7c;
   --bg-filter: #67743d;
   --bg-black: #111111;
+  --h1: 7.813rem;
+  --p: 1.875rem;
 }
 
 body {
@@ -46,6 +48,19 @@ li:hover, button:hover {
 
 li:active, button:active {
   transform: scale(1.02);
+}
+
+p {
+  font-size: var(--p);
+  font-weight: 400;
+}
+
+h1, h2, h3, button, label {
+  font-weight: 700;
+}
+
+button {
+  font-size: 1.563rem;
 }
 
 .designs .circle {

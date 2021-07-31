@@ -37,14 +37,11 @@
 
 .page3 .contents-container .title h2 {
   font-size: 4.688rem;
-  font-weight: 700;
 }
 
 .page3 .contents-container .title p {
   margin: 4rem 0;
   width: 40.625rem;
-  font-size: 1.875rem;
-  font-weight: 400;
 }
 
 .page3 .contents-container .title button {
@@ -52,8 +49,6 @@
   width: 20.125rem;
   height: 4.063rem;
   background: var(--bg-navy);
-  font-size: 1.563rem;
-  font-weight: 700;
   color: white;
 }
 

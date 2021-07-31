@@ -118,16 +118,13 @@
 
 .landing .header h1 {
   margin-left: 0.5rem;
-  font-size: 7.813rem;
-  font-weight: 700;
+  font-size: var(--h1);
   text-align: center;
 }
 
 .landing .header p {
   width: 37.875rem;
   height: 6.25rem;
-  font-size: 1.875rem;
-  font-weight: 400;
 }
 
 .landing .header button {
@@ -136,8 +133,6 @@
   border-radius: 2.063rem;
   width: 20.125rem;
   height: 4.063rem;
-  font-size: 1.563rem;
-  font-weight: 700;
   color: white;
 }
 

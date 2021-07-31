@@ -35,14 +35,11 @@
 
 .page2 .title h2 {
   font-size: 4.688rem;
-  font-weight: 700;
 }
 
 .page2 .title p {
   margin: 4rem 0;
   width: 40.625rem;
-  font-size: 1.875rem;
-  font-weight: 400;
 }
 
 .page2 .title button {
@@ -50,8 +47,6 @@
   width: 20.125rem;
   height: 4.063rem;
   background: var(--bg-navy);
-  font-size: 1.563rem;
-  font-weight: 700;
   color: white;
 }
 

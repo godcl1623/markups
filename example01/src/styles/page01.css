@@ -26,14 +26,12 @@
 
 .menu-introduce .contents-container .title h2 {
   font-size: 4rem;
-  font-weight: 700;
 }
 
 .menu-introduce .contents-container .title p {
   margin-top: 2.25rem;
   width: 44.813rem;
   font-size: 1.563rem;
-  font-weight: 400;
 }
 
 .menu-introduce .card-container {
@@ -56,13 +54,11 @@
 .menu-introduce .card-container .card label {
   margin: 1.438rem 0;
   font-size: 1.75rem;
-  font-weight: 700;
   text-align: center;
 }
 
 .menu-introduce .card-container .card p {
   font-size: 1.063rem;
-  font-weight: 400;
   text-align: center;
   width: 15.375rem;
 }
