@@ -19,24 +19,24 @@
 }
 
 .footer footer h3 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
 }
 
 .footer footer p, .footer footer li {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .footer footer .introduction {
   /* margin-left: 6%; */
   width: 50%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .footer footer .introduction p {
-  margin: 40px 0 32px;
-  width: 466px;
+  margin: 2.5rem 0 2rem;
+  width: 29.125rem;
 }
 
 .footer footer .introduction .icon-container {
@@ -44,23 +44,23 @@
 }
 
 .footer footer .introduction .icon-container li {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .footer footer .article-container {
   width: 50%;
-  height: 350px;
+  height: 21.875rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
 .footer footer .article-container article ul {
-  margin-top: 35px;
+  margin-top: 2.188;
 }
 
 .footer footer .article-container article ul li {
-  margin-top: 23px;
+  margin-top: 1.438rem;
 }
 
 .footer footer .article-container article ul li:first-child {
@@ -68,10 +68,10 @@
 }
 
 .footer footer .article-container article.Services {
-  margin: 0 42px;
+  margin: 0 2.625rem;
 }
 
 .footer a {
   position: absolute;
-  bottom: 50px;
+  bottom: 3.125rem;
 }

@@ -21,35 +21,35 @@
 }
 
 .statistics .contents-container .title {
-  margin-top: 90px;
+  margin-top: 5.625rem;
   text-align: center;
 }
 
 .statistics .contents-container .title h2 {
-  font-size: 62px;
+  font-size: 3.875rem;
   font-weight: 700;
 }
 
 .statistics .contents-container .title p {
-  margin-top: 36px;
-  width: 717px;
-  font-size: 25px;
+  margin-top: 2.25rem;
+  width: 44.813rem;
+  font-size: 1.563rem;
   font-weight: 400;
   text-align: center;
 }
 
 .statistics .card-container {
-  margin-top: 95px;
+  margin-top: 5.938rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .statistics .card-container .card {
-  border: 5px solid white;
+  border: 0.313rem solid white;
   border-radius: 138px;
-  width: 274px;
-  height: 275px;
+  width: 17.125rem;
+  height: 17.188rem;
   background: var(--bg-navy);
   display: flex;
   flex-direction: column;
@@ -58,20 +58,20 @@
 }
 
 .statistics .card-container .card h3 {
-  font-size: 75px;
+  font-size: 4.688rem;
   font-weight: 700;
   text-align: center;
 }
 
 .statistics .card-container .card p {
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: 700;
   text-align: center;
-  width: 246px;
+  width: 15.375rem;
 }
 
 .statistics .card-container .card:nth-child(2) {
-  margin: 0 130px;
+  margin: 0 8.125rem;
 }
 
 .statistics .designs {
@@ -88,33 +88,33 @@
 }
 
 .statistics .designs .dots:first-child {
-  top: 57px;
-  left: 98px;
+  top: 3.563rem;
+  left: 6.125rem;
 }
 
 .statistics .designs .circle:nth-child(2) {
-  top: 78px;
-  right: 90px;
+  top: 4.875rem;
+  right: 5.625rem;
 }
 
 .statistics .designs .zig:nth-child(3) {
-  top: 230px;
-  left: 112px;
+  top: 14.375rem;
+  left: 7rem;
 }
 
 .statistics .designs .dots:nth-child(4) {
-  bottom: 30px;
-  right: 430px;
+  bottom: 1.875rem;
+  right: 26.875rem;
 }
 
 .statistics .designs .circle:nth-child(5) {
-  left: 293px;
-  bottom: -70px;
+  left: 18.313rem;
+  bottom: -4.375rem;
 }
 
 .statistics .designs .zig:nth-child(6) {
-  bottom: 92px;
-  right: 77px;
+  bottom: 5.75rem;
+  right: 4.813rem;
 }
 
 @media (min-height: 850px) {

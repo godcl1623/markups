@@ -53,5 +53,5 @@ li:active, button:active {
 }
 
 .designs .dots {
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }

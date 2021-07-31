@@ -36,23 +36,23 @@
 }
 
 .page3 .contents-container .title h2 {
-  font-size: 75px;
+  font-size: 4.688rem;
   font-weight: 700;
 }
 
 .page3 .contents-container .title p {
-  margin: 64px 0;
-  width: 650px;
-  font-size: 30px;
+  margin: 4rem 0;
+  width: 40.625rem;
+  font-size: 1.875rem;
   font-weight: 400;
 }
 
 .page3 .contents-container .title button {
-  border-radius: 32px;
-  width: 322px;
-  height: 65px;
+  border-radius: 2rem;
+  width: 20.125rem;
+  height: 4.063rem;
   background: var(--bg-navy);
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: 700;
   color: white;
 }
@@ -70,38 +70,30 @@
   position: absolute;
 }
 
-.page3 .designs .circle{
-  border-radius: 102px;
-}
-
-.page3 .designs .dots {
-  border-radius: 4px;
-}
-
 .page3 .designs .dots:first-child {
-  top: 20px;
-  left: 576px;
+  top: 1.25rem;
+  left: 36rem;
   transform: rotate(90deg);
 }
 
 .page3 .designs .circle:nth-child(2) {
-  top: 65px;
-  right: 52px;
+  top: 4.063rem;
+  right: 3.25rem;
 }
 
 .page3 .designs .zig:nth-child(3) {
-  top: 152px;
-  left: 131px;
+  top: 9.5rem;
+  left: 8.188rem;
 }
 
 .page3 .designs .dots:nth-child(4) {
-  bottom: 78px;
-  right: 50px;
+  bottom: 4.875rem;
+  right: 3.125rem;
 }
 
 .page3 .designs .circle:last-child {
-  bottom: 50px;
-  left: 549px;
+  bottom: 3.125rem;
+  left: 34.313rem;
 }
 
 @media (min-width: 1600px) {
