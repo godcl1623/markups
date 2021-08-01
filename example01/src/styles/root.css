@@ -5,7 +5,6 @@
   list-style: none;
   /* border: 1px solid black; */
   z-index: 1;
-  font-family: 'Montserrat', sans-serif;
 }
 
 html, body {
@@ -34,7 +33,7 @@ body {
 section {
   width: 100%;
   max-width: 1920px;
-  min-width: 1240px;
+  min-width: 1200px;
   height: 100vh;
 }
 
@@ -69,4 +68,42 @@ button {
 
 .designs .dots {
   border-radius: 0.25rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, button, ul, ol, li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1199px) {
+  :root {
+    --h1: calc(7.813rem * 0.8);
+    --p: calc(1.875rem * 0.8);
+  }
+
+  section {
+    min-width: 900px;
+  }
+
+  li:hover, li:active {
+    transform: unset;
+  }
+
+  button {
+    font-size: calc(1.563rem * 0.8);
+  }
+}
+
+@media (max-width: 899px) {
+  :root {
+    --h1: calc(7.813rem * 0.6);
+    --p: calc(1.875rem * 0.6);
+  }
+
+  section {
+    min-width: 0;
+  }
+
+  button {
+    font-size: calc(1.563rem * 0.6);
+  }
 }
