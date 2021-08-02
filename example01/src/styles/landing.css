@@ -155,9 +155,9 @@
   position: absolute;
   left: 3.438rem;
   color: white;
-  font-size: 1.875rem;
-  width: 1.875rem;
-  height: 1.875rem;
+  font-size: var(--p);
+  width: var(--p);
+  height: var(--p);
   cursor: pointer;
 }
 
@@ -166,6 +166,15 @@
 }
 
 @media (max-width: 1199px) {
+  .landing .menu {
+    height: calc(5.313rem * 0.85);
+  }
+
+  .landing .menu .logo img{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
   .landing .menu .menus {
     padding: 0.875rem 3.5rem;
     display: none;
@@ -220,6 +229,15 @@
 }
 
 @media (max-width: 899px) {
+  .landing .menu {
+    height: calc(5.313rem * 0.7);
+  }
+
+  .landing .menu .logo img{
+    width: 2rem;
+    height: 2rem;
+  }
+
   .landing .header p {
     width: calc(37.875rem * 0.85);
     height: calc(6.25rem * 0.85);
@@ -232,6 +250,27 @@
 }
 
 @media (max-width: 599px) {
+  .landing .menu {
+    height: calc(5.313rem * 0.55);
+  }
+
+  .landing .menu .logo img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .landing .menu .logo h3 {
+    font-size: 1rem;
+  }
+
+  .landing .menu .mobile-menu-container {
+    left: 1.179rem;
+  }
+
+  .landing .menu form {
+    right: 1.179rem;
+  }
+
   .landing .header {
     top: 50%;
     left: 50%;
@@ -241,10 +280,40 @@
     justify-content: center;
     align-items: center;
   }
+
+  .landing .header h1, .landing .header p {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .landing .header h1 {
+    line-height: 1;
+    font-size: calc(var(--h1) * 0.8);
+  }
+
+  .landing .header p {
+    font-size: calc(var(--p) * 0.85);
+  }
 }
 
 @media (max-height: 800px) and (min-width: 600px) {
   .landing .header {
     top: 25%;
+  }
+}
+
+@media (max-height: 499px) and (min-width: 600px) {
+  .landing .header * {
+    margin-top: 4%;
+  }
+}
+
+@media (max-height: 360px) and (min-width: 600px) {
+  .landing .header * {
+    margin-top: 2%;
+  }
+
+  .landing .header p {
+    height: 3.125rem;
   }
 }
