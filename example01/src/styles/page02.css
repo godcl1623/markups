@@ -11,6 +11,7 @@
 
 .page2 .contents-container {
   width: 100%;
+  max-width: 1920px;
   height: 100vh;
   max-height: 1080px;
   display: flex;
@@ -30,16 +31,26 @@
 }
 
 .page2 .title {
+  position: relative;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.page2 .title h2 {
+.page2 .title .text-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.page2 .title .text-wrapper h2 {
   font-size: 4.688rem;
 }
 
-.page2 .title p {
-  margin: 4rem 0;
-  width: 40.625rem;
+.page2 .title .text-wrapper p {
+  /* margin: 4rem 0; */
+  margin: 4.45vw 0;
+  max-width: 40.625rem;
 }
 
 .page2 .title button {
@@ -53,9 +64,11 @@
 .page2 .designs {
   position: absolute;
   width: 100%;
+  min-width: 1440px;
+  max-width: 1920px;
   height: 100%;
   max-height: 1080px;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 0;
 }
 
@@ -86,6 +99,83 @@
 .page2 .designs .circle:last-child {
   right: -2.813rem;
   bottom: 3.75rem;
+}
+
+@media (max-width: 1199px) {
+  .page2 .contents-container .title .text-wrapper *,
+  .page .contents-container .title button {
+    transform: scale(0.8);
+  }
+
+  .page2 .img-container img {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 899px) {
+  .page2 .contents-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .page2 .contents-container .title {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .page2 .contents-container .title .text-wrapper *,
+  .page .contents-container .title button {
+    transform: scale(0.7);
+  }
+
+  .page2 .contents-container .title .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page2 .contents-container .title .text-wrapper p {
+    margin: 0;
+  }
+
+  .page .contents-container .title button {
+    margin: 0 auto 50px;
+  }
+
+  .page2 .img-container {
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    /* display: none; */
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+  }
+
+  .page2 .img-container img {
+    transform: scale(0.3);
+  }
+
+  .page2 .designs {
+    display: none;
+  }
+}
+
+@media (max-width: 899px) and (min-height: 1001px) {
+  .page2 .img-container {
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    /* display: none; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
 }
 
 @media (max-height: 850px) {
