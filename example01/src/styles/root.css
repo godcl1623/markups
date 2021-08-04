@@ -32,8 +32,8 @@ body {
 
 section {
   width: 100%;
-  max-width: 1920px;
-  min-width: 1200px;
+  /* max-width: 1920px; */
+  /* min-width: 1200px; */
   height: 100vh;
 }
 

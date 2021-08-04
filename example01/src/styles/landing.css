@@ -251,7 +251,7 @@
 
 @media (max-width: 599px) {
   .landing .menu {
-    height: calc(5.313rem * 0.55);
+    /* height: calc(5.313rem * 0.55); */
   }
 
   .landing .menu .logo img{
