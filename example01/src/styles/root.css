@@ -22,6 +22,7 @@ html, body {
   --h1: 7.813rem;
   /* --p: 1.875rem; */
   --p: 2.083vw;
+  --btn: 1.7361vw;
 }
 
 body {
@@ -61,7 +62,7 @@ h1, h2, h3, button, label {
 
 button {
   /* font-size: 1.563rem; */
-  font-size: 1.7361vw;
+  font-size: var(--btn);
 }
 
 .designs .circle {
