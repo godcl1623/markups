@@ -20,7 +20,8 @@ html, body {
   --bg-filter: #67743d;
   --bg-black: #111111;
   --h1: 7.813rem;
-  --p: 1.875rem;
+  /* --p: 1.875rem; */
+  --p: 2.083vw;
 }
 
 body {
@@ -59,7 +60,8 @@ h1, h2, h3, button, label {
 }
 
 button {
-  font-size: 1.563rem;
+  /* font-size: 1.563rem; */
+  font-size: 1.7361vw;
 }
 
 .designs .circle {
