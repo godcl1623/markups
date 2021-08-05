@@ -19,7 +19,8 @@ html, body {
   --bg-green: #678d7c;
   --bg-filter: #67743d;
   --bg-black: #111111;
-  --h1: 7.813rem;
+  /* --h1: 7.813rem; */
+  --h1: 8.681vw;
   /* --p: 1.875rem; */
   --p: 2.083vw;
   --btn: 1.7361vw;
@@ -66,11 +67,13 @@ button {
 }
 
 .designs .circle {
-  border-radius: 6.375rem;
+  /* border-radius: 6.375rem; */
+  border-radius: 7.083vw;
 }
 
 .designs .dots {
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
+  border-radius: 0.278vw;
 }
 
 h1, h2, h3, h4, h5, h6, p, button, ul, ol, li {
@@ -78,35 +81,35 @@ h1, h2, h3, h4, h5, h6, p, button, ul, ol, li {
 }
 
 @media (max-width: 1199px) {
-  :root {
+  /* :root {
     --h1: calc(7.813rem * 0.8);
     --p: calc(1.875rem * 0.8);
   }
 
   section {
     min-width: 900px;
-  }
+  } */
 
   li:hover, li:active {
     transform: unset;
   }
 
-  button {
+  /* button {
     font-size: calc(1.563rem * 0.8);
-  }
+  } */
 }
 
 @media (max-width: 899px) {
-  :root {
+  /* :root {
     --h1: calc(7.813rem * 0.6);
     --p: calc(1.875rem * 0.6);
-  }
-
+  } */
+/* 
   section {
     min-width: 0;
-  }
+  } */
 
-  button {
+  /* button {
     font-size: calc(1.563rem * 0.6);
-  }
+  } */
 }
