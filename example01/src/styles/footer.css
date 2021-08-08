@@ -94,6 +94,10 @@
   font-size: var(--p);
 }
 
+.footer .icon-container-vertical {
+  display: none;
+}
+
 @media (orientation: portrait) {
   .footer {
     padding: 0;

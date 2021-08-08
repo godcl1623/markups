@@ -41,7 +41,7 @@
   /* width: 44.813rem; */
   /* font-size: 1.563rem; */
   width: 49.79167vw;
-  font-size: 2.43056vw;
+  font-size: 2.431vw;
 }
 
 .menu-introduce .card-container {
@@ -233,41 +233,39 @@
     width: calc(17.01389vw * 1.25);
   }
 
-  
-.menu-introduce .designs .dots:first-child {
-  top: calc(-0.76389vw * 1.5);
-  left: calc(18.056vw * 1.5);
-  width: calc(11.7361vw * 1.5);
-}
+  .menu-introduce .designs .dots:first-child {
+    top: calc(-0.76389vw * 1.5);
+    left: calc(18.056vw * 1.5);
+    width: calc(11.7361vw * 1.5);
+  }
 
-.menu-introduce .designs .circle:nth-child(2) {
-  right: calc(-2.083vw * 1.5);
-  top: calc(-2.083vw * 1.5);
-  width: calc(12.29167vw * 1.5);
-}
+  .menu-introduce .designs .circle:nth-child(2) {
+    right: calc(-2.083vw * 1.5);
+    top: calc(-2.083vw * 1.5);
+    width: calc(12.29167vw * 1.5);
+  }
 
-.menu-introduce .designs .zig:nth-child(3) {
-  left: calc(6.945vw * 1.5);
-  top: calc(12.15278vw * 1.5);
-  width: calc(6.875vw * 1.5);
-}
+  .menu-introduce .designs .zig:nth-child(3) {
+    left: calc(6.945vw * 1.5);
+    top: calc(12.15278vw * 1.5);
+    width: calc(6.875vw * 1.5);
+  }
 
-.menu-introduce .designs .dots:nth-child(4) {
-  transform: rotate(90deg);
-  top: calc(24.583vw * 1.5);
-  right: calc(-4.0278vw * 1.5);
-  width: calc(11.7361vw * 1.5);
-}
+  .menu-introduce .designs .dots:nth-child(4) {
+    transform: rotate(90deg);
+    top: calc(24.583vw * 1.5);
+    right: calc(-4.0278vw * 1.5);
+    width: calc(11.7361vw * 1.5);
+  }
 
-.menu-introduce .designs .circle:nth-child(5) {
-  left: calc(-4.51389vw * 1.5);
-  bottom: calc(5.20834vw * 1.5);
-  width: calc(12.29167vw * 1.5);
-}
+  .menu-introduce .designs .circle:nth-child(5) {
+    left: calc(-4.51389vw * 1.5);
+    bottom: calc(5.20834vw * 1.5);
+    width: calc(12.29167vw * 1.5);
+  }
 
-.menu-introduce .designs .zig:last-child {
-  bottom: calc(3.81945vw * 1.5);
-  width: calc(6.875vw * 1.5);
-}
-
+  .menu-introduce .designs .zig:last-child {
+    bottom: calc(3.81945vw * 1.5);
+    width: calc(6.875vw * 1.5);
+  }
 }
