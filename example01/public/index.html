@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="../src/styles/style.css"> -->
+  <script src="https://kit.fontawesome.com/126dba6a94.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -22,23 +23,28 @@
 <body>
   <section class="landing">
     <nav class="menu">
-      <span class="logo">
-        <img src="../src/icons/logo.png" alt="logo">
-        <h3>YOUR LOGO</h3>
-      </span>
-      <ul class="menus">
-        <li>Home</li>
-        <li>Product</li>
-        <li>Promo</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-      <form class="search-form">
-        <input type="text" class="search-bar activer" />
-        <button>
-          <img src="../src/icons/search.png" alt="search" class="search-btn">
-        </button>
-      </form>
+      <div class="contents-wrapper">
+        <div class="mobile-menu-container">
+          <i class="fas fa-bars"></i>
+        </div>
+        <span class="logo">
+          <img src="../src/icons/logo.png" alt="logo">
+          <h3>YOUR LOGO</h3>
+        </span>
+        <ul class="menus">
+          <li>Home</li>
+          <li>Product</li>
+          <li>Promo</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <form class="search-form">
+          <input type="text" class="search-bar activer" />
+          <button>
+            <img src="../src/icons/search.png" alt="search" class="search-btn">
+          </button>
+        </form>
+      </div>
     </nav>
     <div class="bg">
       <div class="filter filter-1"></div>
@@ -50,27 +56,35 @@
     </header>
   </section>
   <section class="menu-introduce page1">
-    <header class="title">
-      <h2>Popular Menu</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
-    </header>
-    <main class="card-container">
-      <article class="card">
-        <img src="../src/img/image_1_1.png" alt="image_01">
-        <label>Title Here</label>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      </article>
-      <article class="card">
-        <img src="../src/img/image_1_2.png" alt="image_02">
-        <label>Title Here</label>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      </article>
-      <article class="card">
-        <img src="../src/img/image_1_3.png" alt="image_03">
-        <label>Title Here</label>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      </article>
-    </main>
+    <div class="contents-container">
+      <header class="title">
+        <h2>Popular Menu</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
+      </header>
+      <main class="card-container">
+        <article class="card">
+          <img src="../src/img/image_1_1.png" alt="image_01">
+          <div class="card-contents-container">
+            <label>Title Here</label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="../src/img/image_1_2.png" alt="image_02">
+          <div class="card-contents-container">
+            <label>Title Here</label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="../src/img/image_1_3.png" alt="image_03">
+          <div class="card-contents-container">
+            <label>Title Here</label>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </article>
+      </main>
+    </div>
     <div class="designs">
       <img src="../src/design/shape_dots_y.png" alt="design_dots" class="design dots">
       <img src="../src/design/shape_circle_y.png" alt="design_circle" class="design circle">
@@ -81,13 +95,17 @@
     </div>
   </section>
   <section class="page page2">
-    <header class="title">
-      <h2>Title Here</h2>
-      <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
-      <button>ORDER NOW</button>
-    </header>
-    <div class="img-container">
-      <img src="../src/img/image_2_1.png" alt="image">
+    <div class="contents-container">
+      <header class="title">
+        <div class="text-wrapper">
+          <h2>Title Here</h2>
+          <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
+        </div>
+        <button>ORDER NOW</button>
+      </header>
+      <div class="img-container">
+        <img src="../src/img/image_2_1.png" alt="image">
+      </div>
     </div>
     <div class="designs">
       <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
@@ -98,24 +116,26 @@
     </div>
   </section>
   <section class="statistics">
-    <header class="title">
-      <h2>Statistics</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
-    </header>
-    <main class="card-container">
-      <article class="card">
-        <h3>123</h3>
-        <p>STORE</p>
-      </article>
-      <article class="card">
-        <h3>100</h3>
-        <p>MENU</p>
-      </article>
-      <article class="card">
-        <h3>200</h3>
-        <p>CHEF</p>
-      </article>
-    </main>
+    <div class="contents-container">
+      <header class="title">
+        <h2>Statistics</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
+      </header>
+      <main class="card-container">
+        <article class="card">
+          <h3>123</h3>
+          <p>STORE</p>
+        </article>
+        <article class="card">
+          <h3>100</h3>
+          <p>MENU</p>
+        </article>
+        <article class="card">
+          <h3>200</h3>
+          <p>CHEF</p>
+        </article>
+      </main>
+    </div>
     <div class="designs">
       <img src="../src/design/shape_dots_y.png" alt="design_dots" class="design dots">
       <img src="../src/design/shape_circle_y.png" alt="design_circle" class="design circle">
@@ -126,13 +146,17 @@
     </div>
   </section>
   <section class="page page3">
-    <header class="title">
-      <h2>Title Here</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
-      <button>ORDER NOW</button>
-    </header>
-    <div class="img-container">
-      <img src="../src/img/image_3_1.png" alt="image">
+    <div class="contents-container">
+      <header class="title">
+        <div class="text-wrapper">
+          <h2>Title Here</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
+        </div>
+        <button>ORDER NOW</button>
+      </header>
+      <div class="img-container">
+        <img src="../src/img/image_3_1.png" alt="image">
+      </div>
     </div>
     <div class="designs">
       <img src="../src/design/shape_dots_bk.png" alt="design_dots" class="design dots">
@@ -151,7 +175,7 @@
     <div class="filter"></div>
   </section>
   <section class="subscription">
-    <header>
+    <header class="contents-container">
       <h2>Title Here</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
       <form class="email">
@@ -173,14 +197,14 @@
       <article class="introduction">
         <h3>Title Here</h3>
         <p>Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Aliquam at dignis-sim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
-        <ul class="icon-container">
+        <ul class="icon-container-horizontal">
           <li><img src="../src/icons/icon_insta.png" alt="instagram" style="background: black;"></li>
           <li><img src="../src/icons/icon_face.png" alt="facebook" style="background: black;"></li>
           <li><img src="../src/icons/icon_twit.png" alt="twitter" style="background: black;"></li>
           <li><img src="../src/icons/icon_wa.png" alt="whatsapp" style="background: black;"></li>
         </ul>
       </article>
-      <section class="article-container">
+      <main class="article-container">
         <article class="About">
           <h3>About</h3>
           <ul class="list-about">
@@ -209,8 +233,14 @@
             <li>Privacy</li>
           </ul>
         </article>
-      </section>
+      </main>
     </footer>
+    <ul class="icon-container-vertical">
+      <li><img src="../src/icons/icon_insta.png" alt="instagram" style="background: black;"></li>
+      <li><img src="../src/icons/icon_face.png" alt="facebook" style="background: black;"></li>
+      <li><img src="../src/icons/icon_twit.png" alt="twitter" style="background: black;"></li>
+      <li><img src="../src/icons/icon_wa.png" alt="whatsapp" style="background: black;"></li>
+    </ul>
     <a href='https://www.freepik.com/psd/food'>Food psd created by freepik - www.freepik.com</a>
   </section>
 </body>

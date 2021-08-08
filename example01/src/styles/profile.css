@@ -1,7 +1,6 @@
 .profile {
-  width: 100%;
   min-height: 100vh;
-  background: url('../bg/bg_pic/background02.png') no-repeat center/100%;
+  background: url('../bg/bg_pic/background02.png') no-repeat center/cover;
   position: relative;
   color: white;
   display: flex;
@@ -29,17 +28,35 @@
 
 .profile main img {
   border-radius: 50%;
+  width: 17.222vw;
+  height: auto;
 }
 
 .profile main p {
   /* margin: 50px 0; */
   margin: 5% 0;
-  width: 1040px;
-  font-size: 42px;
-  font-weight: 400;
+  width: 72.222vw;
+  height: auto;
+  font-size: 2.917vw;
+  text-align: center;
 }
 
 .profile main h3 {
-  font-size: 45px;
-  font-weight: 700;
+  font-size: 3.126vw;
+}
+
+@media (orientation: portrait) {
+  .profile main img {
+    width: calc(17.222vw * 2);
+  }
+
+  .profile main p {
+    margin: 10% 0;
+    width: 72.222vw;
+    font-size: calc(2.917vw * 1.8);
+  }
+  
+  .profile main h3 {
+    font-size: calc(3.126vw * 2);
+  }
 }
