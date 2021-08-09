@@ -7,4 +7,11 @@
 const searchBtn = document.querySelector('.search-form button');
 searchBtn.addEventListener('click', e => {
   e.preventDefault();
+  const searchInput = document.querySelector('.search-bar');
+  const searchImg = document.querySelector('.search-btn');
+  searchInput.classList.add('active');
+  setTimeout(() => {
+    searchInput.style.width = '16.458vw';
+    searchImg.classList.add('hidden');
+  }, 300);
 });

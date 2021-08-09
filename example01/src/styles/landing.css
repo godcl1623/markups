@@ -104,15 +104,25 @@
   /* font-size: 1.125rem; */
   border: none;
   border-bottom: 1px solid white;
-  padding: 0.2089vw 0.3478vw;
+  display: none;
+  /* position: absolute;
+  right: 0; */
   background: var(--bg-navy);
   width: 16.458vw;
+  width: 0;
   font-size: 1.25vw;
   color: white;
+  transition: width 0.5s;
+}
+
+.landing .menu .contents-wrapper form input.active {
+  display: inline-block;
 }
 
 .landing .menu .contents-wrapper form input:focus {
+  padding: 0.2089vw 0.3478vw;
   box-shadow: 0 0 10px 5px var(--bg-yellow);
+  transition: none;
 }
 
 .landing .menu .contents-wrapper form button {
@@ -132,6 +142,19 @@
 .landing .menu .contents-wrapper form button img {
   width: 100%;
   height: 100%;
+}
+
+.landing .menu .contents-wrapper form button .fa-times {
+  color: white;
+  font-size: 2.083vw;
+}
+
+.search-btn.hidden {
+  display: none;
+}
+
+.search-btn.active {
+  display: inline-block;
 }
 
 /* landing - header */
