@@ -70,6 +70,10 @@
   right: 0;
 }
 
+.subscription header form button a, .subscription header form button a:active {
+  all: unset;
+}
+
 .subscription .designs {
   position: absolute;
   width: 100%;
