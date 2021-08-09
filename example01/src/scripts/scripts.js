@@ -9,9 +9,22 @@ searchBtn.addEventListener('click', e => {
   e.preventDefault();
   const searchInput = document.querySelector('.search-bar');
   const searchImg = document.querySelector('.search-btn');
-  searchInput.classList.add('active');
-  setTimeout(() => {
-    searchInput.style.width = '16.458vw';
-    searchImg.classList.add('hidden');
-  }, 300);
+  const closeBtn = document.querySelector('.fa-times');
+  if (searchBtn.className === 'pending') {
+    searchBtn.className = 'search';
+    searchInput.classList.remove('hidden');
+    setTimeout(() => {
+      searchInput.style.width = '16.458vw';
+      searchImg.classList.add('hidden');
+      closeBtn.classList.remove('hidden');
+    }, 300);
+  } else {
+    searchBtn.className = 'pending';
+    searchInput.style.width = '0';
+    setTimeout(() => {
+      searchInput.classList.add('hidden');
+      searchImg.classList.remove('hidden');
+      closeBtn.classList.add('hidden');
+    }, 300);
+  }
 });
