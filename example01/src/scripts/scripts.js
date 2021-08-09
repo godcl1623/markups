@@ -75,7 +75,24 @@ orderBtn.forEach(btn =>
 );
 
 // Subscribe 버튼
-const subsBtn = document.querySelector('.subscribe');
+const subsBtn = document.querySelector('#subscribe');
 subsBtn.addEventListener('click', e => {
   e.preventDefault();
+});
+
+// 모바일 화면의 footer 메뉴
+const footerMenu = document.querySelectorAll(
+  '.footer .article-container article'
+);
+const articles = Array.from(footerMenu);
+articles.forEach(menu => {
+  const target = menu.querySelector('h3');
+  target.addEventListener('click', () => {
+    if (menu.classList.contains('active')) {
+      menu.classList.toggle('active');
+    } else {
+      articles.forEach(item => item.classList.remove('active'));
+      menu.classList.add('active');
+    }
+  });
 });
