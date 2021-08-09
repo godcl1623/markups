@@ -54,6 +54,10 @@
   margin-right: 1.111vw;
 }
 
+.footer footer .introduction .icon-container-horizontal li a {
+  all: unset;
+}
+
 .footer footer .introduction .icon-container-horizontal li img {
   width: 2.917vw;
   height: auto;
