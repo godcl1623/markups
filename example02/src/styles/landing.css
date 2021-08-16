@@ -5,10 +5,11 @@
 }
 
 #landing #menu {
+  padding: 0 140px;
   width: 100%;
   height: 121px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   background: var(--yellow-dark);
 }
@@ -35,6 +36,7 @@
 
 #landing #menu #logo .logo-heading .heading-sub {
   font-weight: var(--weight-regular);
+  font-size: 12px;
 }
 
 #landing #navigation {
@@ -59,6 +61,7 @@
 }
 
 #landing #search input {
+  border: none;
   padding: 0 20px;
   width: 100%;
   height: 51px;
@@ -73,6 +76,7 @@
 }
 
 #landing #search button {
+  border: none;
   width: 71px;
   height: 51px;
   background: var(--turquoise);
@@ -83,4 +87,60 @@
   width: 23px;
   height: 23px;
   color: var(--white);
+}
+
+#landing #main {
+  padding: 0 140px;
+  width: 100%;
+  height: 779px;
+  background: var(--yellow-bg);
+  display: flex;
+  justify-content: space-between;
+}
+
+#landing #main .text-box {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#landing #main .text-box h1 {
+  font-size: var(--h1);
+  letter-spacing: 1px;
+  font-weight: var(--weight-bolder);
+}
+
+#landing #main .text-box p {
+  margin: 50px 0;
+  font-size: var(--text);
+  letter-spacing: 0;
+  font-weight: var(--weight-regular);
+}
+
+#landing #main .text-box .btn-container button {
+  border-radius: 7px;
+  width: 182px;
+  height: 69px;
+  font-size: var(--btn);
+  font-weight: var(--weight-bolder);
+  color: var(--white);
+}
+
+#landing #main .text-box .btn-container button.contact {
+  margin-right: 35px;
+  border: none;
+  background: var(--turquoise);
+}
+
+#landing #main .text-box .btn-container button.blank {
+  border: 3px solid var(--white);
+  background: var(--yellow-bg);
+}
+
+#landing #main .img-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
