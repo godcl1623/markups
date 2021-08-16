@@ -210,6 +210,10 @@
     margin-right: calc(1.111vw * 3);
   }
 
+  .footer .icon-container-vertical li a {
+    all: unset;
+  }
+
   .footer .icon-container-vertical li img {
     width: calc(2.917vw * 3);
     height: auto;
