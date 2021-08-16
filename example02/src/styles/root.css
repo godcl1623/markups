@@ -7,6 +7,29 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --yellow-dark: #daac00;
+  --yellow-bg: #fcc302;
+  --turquoise: #00bec9;
+  --white: #ffffff;
+  --black: #313243;
+  --weight-boldest: 700;
+  --weight-bolder: 600;
+  --weight-bold: 500;
+  --weight-regular: 400;
+  --h1: 67px;
+  --h2: 50px;
+  --h2-big: 75px;
+  --h3: 38px;
+  --h3-small: 29px;
+  --text: 29px;
+  --text-big: 33px;
+  --text-card: 25px;
+  --text-price: 42px;
+  --text-small: 17px;
+  --btn: 21px;
+}
+
 html {
   width: 1440px;
   height: 8000px;
