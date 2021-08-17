@@ -118,7 +118,12 @@
   font-weight: var(--weight-regular);
 }
 
-#landing #main .text-box .btn-container button {
+#landing #main .text-box .btn-container {
+  display: flex;
+}
+
+#landing #main .text-box .btn-container button,
+#landing #main .text-box .btn-container a {
   border-radius: 7px;
   width: 182px;
   height: 69px;
@@ -133,8 +138,11 @@
   background: var(--turquoise);
 }
 
-#landing #main .text-box .btn-container button.blank {
+#landing #main .text-box .btn-container a.blank {
   border: 3px solid var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--yellow-bg);
 }
 
