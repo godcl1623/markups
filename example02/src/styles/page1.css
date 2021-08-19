@@ -1,0 +1,23 @@
+#page1 {
+  width: 100%;
+  height: 794px;
+}
+
+#page1 .text-box {
+  color: var(--black);
+}
+
+#page1 .text-box h2 {
+  font-size: var(--h2);
+  font-weight: var(--weight-bolder);
+}
+
+#page1 .text-box p {
+  font-size: var(--text);
+  letter-spacing: 0;
+  font-weight: var(--weight-regular);
+}
+
+#page1 .text-box a {
+  
+}
