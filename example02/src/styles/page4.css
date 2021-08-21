@@ -1,0 +1,85 @@
+#page4 {
+  padding: 0 140px;
+  width: 100%;
+  height: 1017px;
+  background: var(--yellow-bg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#page4 .text-box {
+  text-align: center;
+}
+
+#page4 .text-box h2 {
+  font-size: var(--h2-big);
+  font-weight: var(--weight-boldest);
+}
+
+#page4 .text-box p {
+  margin-bottom: 100px;
+  width: 746px;
+  font-size: var(--text-big);
+  font-weight: var(--weight-regular);
+}
+
+#page4 .card-container {
+  display: flex;
+}
+
+#page4 .card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#page4 .card-container .card:nth-child(2) {
+  margin: 0 65px;
+}
+
+#page4 .card-container .card img {
+  width: 342px;
+  height: 353px;
+}
+
+#page4 .card-container .card .price {
+  margin: 40px 0 30px;
+  display: flex;
+  font-size: var(--text-price);
+  font-weight: var(--weight-bolder);
+}
+
+#page4 .card-container .card .price .price-deleted {
+  margin-right: 24px;
+  /* text-decoration: line-through; */
+  position: relative;
+}
+
+#page4 .card-container .card .price .price-deleted .delete {
+  border: none;
+  width: 109px;
+  height: 4px;
+  background: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#page4 .card-container .card .buy {
+  border: none;
+  width: 199px;
+  height: 60px;
+  border-radius: 30px;
+  background: var(--turquoise);
+  font-size: var(--btn);
+  font-weight: var(--weight-bolder);
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
