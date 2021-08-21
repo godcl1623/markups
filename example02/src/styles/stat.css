@@ -1,0 +1,54 @@
+#statistics {
+  padding: 0 140px;
+  width: 100%;
+  height: 575px;
+  background: url(../assets/bg/bg_temp.png);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#statistics .filter {
+  background: rgba(252,195,2,0.8392156862745098);;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#statistics .card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+#statistics .card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#statistics .card-container .card img {
+  border-radius: 5px;
+  width: 90px;
+  height: 90px;
+}
+
+#statistics .card-container .card h3 {
+  font-size: var(--h3);
+  font-weight: var(--weight-boldest);
+  text-align: center;
+}
+
+#statistics .card-container .card p {
+  margin: 60px 0 25px;
+  font-size: var(--text-price);
+  font-weight: var(--weight-bold);
+  text-align: center;
+}

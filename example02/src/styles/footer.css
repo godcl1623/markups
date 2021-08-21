@@ -1,0 +1,79 @@
+#footer {
+  padding: 0 140px;
+  width: 100%;
+  height: 654px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #343434;
+  color: var(--white);
+}
+
+/* #footer, #footer * {
+  border: 1px solid white;
+} */
+
+#footer h4 {
+  margin-bottom: 40px;
+  font-size: var(--h3);
+  font-weight: var(--weight-bolder);
+}
+
+#footer ul {
+  font-size: var(--text-card);
+  line-height: 44px;
+  font-weight: var(--weight-regular);
+}
+
+#footer p {
+  margin-bottom: 55px;
+  font-size: var(--text-card);
+  line-height: 33px;
+  font-weight: var(--weight-regular);
+  text-align: right;
+}
+
+#footer #contact .text-box h4 {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 8px;
+}
+
+#footer #contact .send-msg {
+  width: 530px;
+  height: 90px;
+  position: relative;
+}
+
+#footer #contact .send-msg input {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background: var(--yellow-dark);
+  font-size: var(--text);
+  color: var(--white);
+}
+
+#footer #contact .send-msg button {
+  width: 144px;
+  height: 100%;
+  background: var(--turquoise);
+  position: absolute;
+  right: 0;
+}
+
+#footer #contact .sns-container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer #contact .sns-container li {
+  margin-left: 17px;
+}
+
+#footer #contact .sns-container li img {
+  width: 44px;
+  height: 44px;
+}
