@@ -1,7 +1,9 @@
 #profile {
-  padding: 0 140px;
+  /* padding: 0 140px; */
+  padding: 0 9.722vw;
   width: 100%;
-  height: 1077px;
+  /* height: 1077px; */
+  height: 74.792vw;
   color: var(--black);
   display: flex;
   flex-direction: column;
@@ -19,8 +21,10 @@
 }
 
 #profile .text-box p {
-  margin-bottom: 100px;
-  width: 746px;
+  /* margin-bottom: 100px; */
+  margin-bottom: 6.944vw;
+  /* width: 746px; */
+  width: 51.806vw;
   font-size: var(--text-big);
   font-weight: var(--weight-regular);
 }
@@ -38,7 +42,8 @@
 }
 
 #profile .card-container .card:nth-child(2) {
-  margin: 0 40px;
+  /* margin: 0 40px; */
+  margin: 0 2.778vw;
 }
 
 /* #profile .card-container .card img {
@@ -53,19 +58,23 @@
 }
 
 #profile .card-container .card p {
-  margin: 20px 0 30px;
+  /* margin: 20px 0 30px; */
+  margin: 1.389vw 0 2.083vw;
   font-size: var(--text-card);
   font-weight: var(--weight-regular);
 }
 
 #profile .card-container .card .sns-container {
   display: flex;
-  width: 184px;
-  height: 35px;
+  /* width: 184px; */
+  width: 12.778vw;
+  /* height: 35px; */
+  height: 2.431vw;
 }
 
 #profile .card-container .card .sns-container li {
-  margin-right: 15px;
+  /* margin-right: 15px; */
+  margin-right: 1.042vw;
   border-radius: 50%;
   background: var(--yellow-dark);
 }
@@ -75,6 +84,8 @@
   /* background: var(--yellow-dark); */
   color: var(--yellow-dark);
   mix-blend-mode: normal;
-  width: 35px;
-  height: 35px;
+  /* width: 35px; */
+  width: 2.431vw;
+  /* height: 35px; */
+  height: 2.431vw;
 }

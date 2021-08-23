@@ -1,7 +1,9 @@
 #page4 {
-  padding: 0 140px;
+  /* padding: 0 140px; */
+  padding: 0 9.722vw;
   width: 100%;
-  height: 1017px;
+  /* height: 1017px; */
+  height: 70.625vw;
   background: var(--yellow-bg);
   color: white;
   display: flex;
@@ -20,8 +22,10 @@
 }
 
 #page4 .text-box p {
-  margin-bottom: 100px;
-  width: 746px;
+  /* margin-bottom: 100px; */
+  margin-bottom: 6.944vw;
+  /* width: 746px; */
+  width: 51.806vw;
   font-size: var(--text-big);
   font-weight: var(--weight-regular);
 }
@@ -39,31 +43,38 @@
 }
 
 #page4 .card-container .card:nth-child(2) {
-  margin: 0 65px;
+  /* margin: 0 65px; */
+  margin: 0 4.514vw;
 }
 
 #page4 .card-container .card img {
-  width: 342px;
-  height: 353px;
+  /* width: 342px; */
+  width: 23.75vw;
+  /* height: 353px; */
+  height: 24.514vw;
 }
 
 #page4 .card-container .card .price {
-  margin: 40px 0 30px;
+  /* margin: 40px 0 30px; */
+  margin: 2.778vw 0 2.083vw;
   display: flex;
   font-size: var(--text-price);
   font-weight: var(--weight-bolder);
 }
 
 #page4 .card-container .card .price .price-deleted {
-  margin-right: 24px;
+  /* margin-right: 24px; */
+  margin-right: 1.667vw;
   /* text-decoration: line-through; */
   position: relative;
 }
 
 #page4 .card-container .card .price .price-deleted .delete {
   border: none;
-  width: 109px;
-  height: 4px;
+  /* width: 109px; */
+  width: 7.569vw;
+  /* height: 4px; */
+  height: 0.278vw;
   background: var(--white);
   position: absolute;
   top: 50%;
@@ -73,9 +84,12 @@
 
 #page4 .card-container .card .buy {
   border: none;
-  width: 199px;
-  height: 60px;
-  border-radius: 30px;
+  /* width: 199px; */
+  width: 13.819vw;
+  /* height: 60px; */
+  height: 4.167vw;
+  /* border-radius: 30px; */
+  border-radius: 2.083vw;
   background: var(--turquoise);
   font-size: var(--btn);
   font-weight: var(--weight-bolder);
