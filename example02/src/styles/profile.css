@@ -46,11 +46,14 @@
   margin: 0 2.778vw;
 }
 
-/* #profile .card-container .card img {
-  margin-bottom: 40px;
-  width: 342px;
-  height: 353px;
-} */
+#profile .card-container .card img {
+  /* margin-bottom: 40px; */
+  /* width: 361px;
+  height: 351px; */
+  margin-bottom: 2.778vw;
+  width: 25.069vw;
+  height: 24.375vw;
+}
 
 #profile .card-container .card h3 {
   font-size: var(--h3-small);
