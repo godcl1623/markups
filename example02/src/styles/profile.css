@@ -82,6 +82,19 @@
   background: var(--yellow-dark);
 }
 
+#profile .card-container .card .sns-container li span {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.431vw;
+  height: 2.431vw;
+  background: var(--yellow-dark);
+  color: var(--white);
+  text-align: center;
+  font-size: 1.389vw;
+}
+
 #profile .card-container .card .sns-container li img {
   border-radius: 50%;
   /* background: var(--yellow-dark); */

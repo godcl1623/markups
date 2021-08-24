@@ -72,6 +72,9 @@
   background: var(--turquoise);
   position: absolute;
   right: 0;
+  /* font-size: 32px; */
+  font-size: 2.222vw;
+  color: white;
 }
 
 #footer #contact .sns-container {
@@ -87,9 +90,13 @@
   margin-left: 1.181vw;
 }
 
-#footer #contact .sns-container li img {
-  /* width: 44px; */
+#footer #contact .sns-container li span {
+  border-radius: 50%;
+  display: block;
   width: 3.056vw;
-  /* height: 44px; */
   height: 3.056vw;
+  background: var(--white);
+  color: var(--black);
+  text-align: center;
+  font-size: 2.083vw;
 }

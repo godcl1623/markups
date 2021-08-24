@@ -78,6 +78,8 @@
   /* height: 51px; */
   height: 3.542vw;
   background: var(--yellow-bg);
+  font-size: var(--btn);
+  color: var(--white);
 }
 
 #landing #search input::placeholder {
