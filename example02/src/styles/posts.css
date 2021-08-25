@@ -1,7 +1,9 @@
 #posts {
-  padding: 0 140px;
+  /* padding: 0 140px; */
+  padding: 0 9.722vw;
   width: 100%;
-  height: 1176px;
+  /* height: 1176px; */
+  height: 81.667vw;
   color: var(--black);
   display: flex;
   flex-direction: column;
@@ -23,8 +25,10 @@
 }
 
 #posts .text-box p {
-  margin-bottom: 100px;
-  width: 746px;
+  /* margin-bottom: 100px; */
+  margin-bottom: 6.944vw;
+  /* width: 746px; */
+  width: 51.806vw;
   font-size: var(--text-big);
   font-weight: var(--weight-regular);
 }
@@ -34,10 +38,13 @@
 }
 
 #posts .card-container .card {
-  border: 2px solid #d6d6d6;
+  /* border: 2px solid #d6d6d6; */
+  border: 0.139vw solid #d6d6d6;
   border-top: none;
-  width: 361px;
-  height: 632px;
+  /* width: 361px; */
+  width: 25.069vw;
+  /* height: 632px; */
+  height: 43.889vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -46,15 +53,19 @@
 }
 
 #posts .card-container .card:nth-child(2) {
-  margin: 0 40px;
+  /* margin: 0 40px; */
+  margin: 0 2.778vw;
   border: none;
-  box-shadow: 5.634px 10.595px 25.5px rgba(74,74,74,0.1);
+  /* box-shadow: 5.634px 10.595px 25.5px rgba(74,74,74,0.1); */
+  box-shadow: 0.391vw 0.736vw 1.771vw rgba(74,74,74,0.1);
 }
 
 #posts .card-container .card .card-image {
   /* margin-bottom: 30px; */
-  width: 361px;
-  height: 351px;
+  /* width: 361px; */
+  width: 25.069vw;
+  /* height: 351px; */
+  height: 24.375vw;
 }
 
 #posts .card-container .card .card-image img {
@@ -64,23 +75,27 @@
 }
 
 #posts .card-container .card .card-textbox {
-  padding: 25px;
+  /* padding: 25px; */
+  padding: 1.736vw;
 }
 
 #posts .card-container  .card-textbox .heading h3 {
-  font-size: calc(var(--h3-small) - 4px);
+  /* font-size: calc(var(--h3-small) - 4px); */
+  font-size: calc(var(--h3-small) - 0.278vw);
   font-weight: var(--weight-bolder);
 }
 
 #posts .card-container .card .card-textbox .heading p {
-  margin-top: 15px;
+  /* margin-top: 15px; */
+  margin-top: 1.042vw;
   font-size: var(--text-small);
   font-weight: var(--weight-regular);
   color: var(--turquoise);
 }
 
 #posts .card-container .card .card-textbox p:not(#posts .card-container .card .card-textbox .heading p) {
-  margin: 25px 0;
+  /* margin: 25px 0; */
+  margin: 1.736vw 0;
   font-size: var(--text-small);
   font-weight: var(--weight-regular);
 }

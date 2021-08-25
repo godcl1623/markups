@@ -1,7 +1,9 @@
 #footer {
-  padding: 0 140px;
+  /* padding: 0 140px; */
+  padding: 0 9.722vw;
   width: 100%;
-  height: 654px;
+  /* height: 654px; */
+  height: 45.417vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,39 +16,48 @@
 } */
 
 #footer h4 {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
+  margin-bottom: 2.778vw;
   font-size: var(--h3);
   font-weight: var(--weight-bolder);
 }
 
 #footer ul {
   font-size: var(--text-card);
-  line-height: 44px;
+  /* line-height: 44px; */
+  line-height: 3.056vw;
   font-weight: var(--weight-regular);
 }
 
 #footer p {
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
+  margin-bottom: 3.819vw;
   font-size: var(--text-card);
-  line-height: 33px;
+  /* line-height: 33px; */
+  line-height: 2.292vw;
   font-weight: var(--weight-regular);
   text-align: right;
 }
 
 #footer #contact .text-box h4 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin-top: 1.389vw;
   text-align: right;
-  line-height: 8px;
+  /* line-height: 8px; */
+  line-height: 0.556vw;
 }
 
 #footer #contact .send-msg {
-  width: 530px;
-  height: 90px;
+  /* width: 530px; */
+  width: 36.806vw;
+  /* height: 90px; */
+  height: 6.25vw;
   position: relative;
 }
 
 #footer #contact .send-msg input {
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 1.389vw;
   width: 100%;
   height: 100%;
   background: var(--yellow-dark);
@@ -55,25 +66,37 @@
 }
 
 #footer #contact .send-msg button {
-  width: 144px;
+  /* width: 144px; */
+  width: 10vw;
   height: 100%;
   background: var(--turquoise);
   position: absolute;
   right: 0;
+  /* font-size: 32px; */
+  font-size: 2.222vw;
+  color: white;
 }
 
 #footer #contact .sns-container {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin-top: 3.472vw;
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
 #footer #contact .sns-container li {
-  margin-left: 17px;
+  /* margin-left: 17px; */
+  margin-left: 1.181vw;
 }
 
-#footer #contact .sns-container li img {
-  width: 44px;
-  height: 44px;
+#footer #contact .sns-container li span {
+  border-radius: 50%;
+  display: block;
+  width: 3.056vw;
+  height: 3.056vw;
+  background: var(--white);
+  color: var(--black);
+  text-align: center;
+  font-size: 2.083vw;
 }
